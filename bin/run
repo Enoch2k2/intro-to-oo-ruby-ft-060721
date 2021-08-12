@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+# load up the environment
+require_relative '../config/environment'
+
+# start the flow of code
+data = {content: "They did a no no"}
+blog = Blog.new(data)
+
+# blog.title = "Blizzard did a uh oh"
+
+binding.pry
